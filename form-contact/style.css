@@ -46,16 +46,15 @@
      width: 50%;
      height: 40px;
      cursor: pointer;
-     background-color: #5f7c8a;
+     background-color: #0a6694c2;
      color: white;
      border-radius: 20px;
      border: 0;
      transition: .5s;
-
  }
 
  form input[type=submit]:hover {
-     background-color: #0a6694c2;
+     background-color: #5f7c8a;
  }
 
  form input[type=text]:focus {
@@ -79,6 +78,15 @@
 
  a:hover {
      color: #ccc;
+ }
+
+ h4 {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-align: center;
+     padding: 37px 0px;
+     padding-bottom: 0px;
+     color: #5f7c8a;
+     font-size: 1.3em;
  }
 
  div hr {
@@ -108,33 +116,33 @@
  }
 
  #nav {
-     /* background-color: black; */
      padding: 1px;
      width: 50%;
      height: 130px;
      display: flex;
      justify-content: center;
      align-items: center;
-     margin-left: 26%;
+     margin-left: 25%;
  }
 
  #a1, #b1 {
      background-color: #0a6694c2;
      border-radius: 100%;
      position: relative;
-     width: 50px;
-     height: 50px;
-     margin: 10px;
+     width: 40px;
+     height: 40px;
+     margin: 25px;
+ }
 
-
+ #a1:hover, #b1:hover {
+     background-color: #5f7c8a;
  }
 
  span {
      width: 50px;
      display: inline-block;
-     margin: 32%;
-     margin-left: 5%;
+     margin: 30%;
+     margin-left: -10%;
      cursor: pointer;
      position: relative;
-
  }
